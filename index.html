@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soluciones Digitales, Desarrollo Web y Soporte Técnico</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --card-bg: #1e293b;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+            --accent: #38bdf8;
+            --accent-hover: #0284c7;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        header {
+            text-align: center;
+            padding: 4rem 1.5rem;
+            background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+            border-bottom: 1px solid #334155;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--accent);
+        }
+
+        header p {
+            max-width: 650px;
+            margin: 0 auto 1.5rem;
+            color: var(--text-muted);
+            font-size: 1.1rem;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: #0f172a;
+            padding: 0.75rem 1.5rem;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-hover);
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 1050px;
+            margin: 0 auto;
+            padding: 3rem 1.5rem;
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 2rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .card {
+            background-color: var(--card-bg);
+            padding: 1.8rem;
+            border-radius: 12px;
+            border: 1px solid #334155;
+            transition: transform 0.2s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+        }
+
+        .card-icon {
+            font-size: 2.2rem;
+            margin-bottom: 1rem;
+        }
+
+        .card h3 {
+            margin-bottom: 0.75rem;
+            font-size: 1.3rem;
+        }
+
+        .card p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+        }
+
+        .contact-section {
+            text-align: center;
+            background-color: var(--card-bg);
+            padding: 2.5rem 1.5rem;
+            border-radius: 12px;
+            margin-top: 3rem;
+            border: 1px solid #334155;
+        }
+
+        .contact-section p {
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid #1e293b;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>💻 Soluciones Digitales y Soporte Técnico</h1>
+        <p>🚀 Desarrollo de apps de gestión para administradores, diseño web para pequeñas empresas y soporte técnico profesional a domicilio.</p>
+        <a href="https://lfalfra.github.com" target="_blank" class="btn">Ver mis Repositorios en GitHub</a>
+    </header>
+
+    <main class="container">
+        <h2>Mis Servicios y Proyectos</h2>
+        
+        <div class="grid">
+            <div class="card">
+                <div class="card-icon">⚙️</div>
+                <h3>Apps para Administradores</h3>
+                <p>Desarrollo de aplicaciones de escritorio y herramientas internas diseñadas para agilizar tareas administrativas, control de inventario y gestión diaria.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🌐</div>
+                <h3>Diseño Web para Pymes</h3>
+                <p>Creación de páginas web modernas, rápidas y adaptadas a dispositivos móviles para que las pequeñas empresas destaquen en internet.</p>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🛠️</div>
+                <h3>Soporte Técnico a Domicilio</h3>
+                <p>Mantenimiento preventivo y correctivo de ordenadores, reparación de averías, optimización de rendimiento e instalación de software a domicilio.</p>
+            </div>
+        </div>
+
+        <section class="contact-section">
+            <h2>¿Necesitas ayuda con tu equipo o proyecto?</h2>
+            <p>Contáctame para presupuestos de desarrollo web, software a medida o asistencia técnica.</p>
+            <a href="mailto:infopcfacilvalladolid@gmail.com" class="btn">📩 Enviar Correo</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2026 - Desarrollado con pasión por la tecnología | Disponible en GitHub</p>
+    </footer>
+
+</body>
+</html>
